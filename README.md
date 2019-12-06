@@ -1,4 +1,4 @@
-# angular2-highcharts
+# angular5-highcharts7
 
 > Highcharts chart components for Angular apps. 👉 [Live Demo](http://plnkr.co/edit/AJwozFWVR7TkQZnt05dN?p=preview)
 
@@ -10,7 +10,7 @@
 
 ## Table of Contents
  - [Setting Up](#setting-up)
-  - [Install angular2-highcharts](#install-angular2-highcharts)
+  - [Install angular5-highcharts7](#install-angular5-highcharts7)
   - [Setup App @NgModule](#setup-app-ngmodule)
  - [Usage](#usage)
   - [Basic Usage](#basic-usage)
@@ -32,16 +32,16 @@
 
 ## Setting Up
 
-### Install angular2-highcharts
+### Install angular5-highcharts7
 ```
-npm install angular2-highcharts --save
+npm install angular5-highcharts7 --save
 ```
 
 ### Setup App @NgModule
 ```TypeScript
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ChartModule } from 'angular2-highcharts';
+import { ChartModule } from 'angular5-highcharts7';
 import { App } from './App';
 
 @NgModule({
@@ -65,7 +65,7 @@ You should add appropriate mapping to your `systemjs.config.js`
 ...
 map: {
   ...
-  'angular2-highcharts': 'node_modules/angular2-highcharts',
+  'angular5-highcharts7': 'node_modules/angular5-highcharts7',
   'highcharts': 'node_modules/highcharts',
 }
 ...
@@ -75,7 +75,7 @@ packages: {
     main: './highcharts.js',
     defaultExtension: 'js'
   },
-  'angular2-highcharts': {
+  'angular5-highcharts7': {
     main: './index.js',
     defaultExtension: 'js'
   }
