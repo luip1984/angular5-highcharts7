@@ -1,8 +1,11 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var isObj = function (x) {
     var type = typeof x;
     return x !== null && (type === 'object' || type === 'function');
 };
+var ɵ0 = isObj;
+exports.ɵ0 = ɵ0;
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 var propIsEnumerable = Object.prototype.propertyIsEnumerable;
 function toObject(val) {
