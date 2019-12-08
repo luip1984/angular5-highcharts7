@@ -1,6 +1,6 @@
 {
   "name": "angular5-highcharts7",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Highcharts7 for your Angular5 project",
   "scripts": {
     "watch": "ntsc -w",
@@ -51,7 +51,9 @@
     "zone.js": "^0.8.20"
   },
   "dependencies": {
-    "@types/highcharts": "^7.0.0",
     "highcharts": "^7.2.1"
-  }
+  },
+  "bundledDependencies": [
+    "highcharts"
+  ]
 }
