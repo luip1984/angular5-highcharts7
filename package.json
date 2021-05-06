@@ -51,7 +51,7 @@
     "zone.js": "^0.8.20"
   },
   "dependencies": {
-    "highcharts": "^7.2.1"
+    "highcharts": "^9.0.0"
   },
   "bundledDependencies": [
     "highcharts"
